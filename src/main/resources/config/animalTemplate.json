@@ -1,0 +1,274 @@
+[
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "swipe",
+      "with_ball",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "green"
+    ],
+    "animalName": "恐龙",
+    "code": "deno",
+    "imagePath": "/images/deno/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "swipe",
+      "with_ball",
+      "lie",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "orange",
+      "green"
+    ],
+    "animalName": "乌龟",
+    "code": "turtle",
+    "imagePath": "/images/turtle/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "lie",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "white",
+      "akita",
+      "brown"
+    ],
+    "animalName": "狗狗",
+    "code": "dog",
+    "imagePath": "/images/dog/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "lie",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "red",
+      "white"
+    ],
+    "animalName": "狐狸",
+    "code": "fox",
+    "imagePath": "/images/fox/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "yellow"
+    ],
+    "animalName": "黄鸭",
+    "code": "duck",
+    "imagePath": "/images/duck/"
+  },
+  {
+    "animalType": "fly",
+    "actionList": [
+      "wallgrab",
+      "idle",
+      "swipe",
+      "with_ball",
+      "wallclimb",
+      "land",
+      "lie",
+      "run",
+      "walk",
+      "jump"
+    ],
+    "colorList": [
+      "gray"
+    ],
+    "animalName": "龙猫",
+    "code": "totoro",
+    "imagePath": "/images/totoro/"
+  },
+  {
+    "animalType": "fly",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "swipe",
+      "with_ball",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "gray"
+    ],
+    "animalName": "鹦鹉",
+    "code": "bird",
+    "imagePath": "/images/bird/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "white"
+    ],
+    "animalName": "小鸡",
+    "code": "chicken",
+    "imagePath": "/images/chicken/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "run",
+      "stand",
+      "walk"
+    ],
+    "colorList": [
+      "white",
+      "magical",
+      "black",
+      "brown"
+    ],
+    "animalName": "马",
+    "code": "horse",
+    "imagePath": "/images/horse/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "swipe",
+      "with_ball",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "green"
+    ],
+    "animalName": "蛇",
+    "code": "snake",
+    "imagePath": "/images/snake/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "run",
+      "lie",
+      "stand",
+      "walk"
+    ],
+    "colorList": [
+      "default"
+    ],
+    "animalName": "八神庵",
+    "code": "bashen",
+    "imagePath": "/images/kof/bashen/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "idle",
+      "with_ball",
+      "swipe",
+      "stand",
+      "walk"
+    ],
+    "colorList": [
+      "default"
+    ],
+    "animalName": "不知火舞",
+    "code": "huowu",
+    "imagePath": "/images/kof/huowu/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "run",
+      "with_ball",
+      "swipe",
+      "stand",
+      "walk"
+    ],
+    "colorList": [
+      "default"
+    ],
+    "animalName": "草薙京",
+    "code": "caozhi",
+    "imagePath": "/images/kof/caozhi/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "run",
+      "idle",
+      "with_ball",
+      "swipe",
+      "stand",
+      "walk"
+    ],
+    "colorList": [
+      "default"
+    ],
+    "animalName": "坂崎良",
+    "code": "banqiliang",
+    "imagePath": "/images/kof/banqiliang/"
+  },
+  {
+    "animalType": "land",
+    "actionList": [
+      "walk_fast",
+      "with_ball",
+      "swipe",
+      "run",
+      "walk"
+    ],
+    "colorList": [
+      "default"
+    ],
+    "animalName": "布鲁玛丽",
+    "code": "bulu",
+    "imagePath": "/images/kof/bulu/"
+  }
+]

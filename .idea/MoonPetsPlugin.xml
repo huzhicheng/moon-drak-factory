@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MoonPetsState">
+    <option name="animals">
+      <list>
+        <PetUserConfig>
+          <option name="code" value="deno" />
+          <option name="color" value="green" />
+          <option name="name" value="" />
+          <option name="system" value="true" />
+        </PetUserConfig>
+        <PetUserConfig>
+          <option name="code" value="fox" />
+          <option name="color" value="red" />
+          <option name="name" value="" />
+          <option name="system" value="true" />
+        </PetUserConfig>
+        <PetUserConfig>
+          <option name="code" value="banqiliang" />
+          <option name="color" value="default" />
+          <option name="name" value="" />
+          <option name="system" value="true" />
+        </PetUserConfig>
+      </list>
+    </option>
+    <option name="backgroundConfig">
+      <PetUserBackgroundConfig>
+        <option name="backgroundCode" value="kof-10" />
+        <option name="system" value="true" />
+      </PetUserBackgroundConfig>
+    </option>
+    <option name="enableOffend" value="true" />
+  </component>
+</project>

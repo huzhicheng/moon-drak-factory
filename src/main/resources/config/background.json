@@ -1,0 +1,154 @@
+[
+  {
+    "name": "海滩",
+    "code": "beach",
+    "path": "/images/backgrounds/beach/",
+    "backgroundImageName": "background-dark-medium.png",
+    "foregroundImageName": "foreground-dark-medium.png",
+    "y": 30
+  },
+  {
+    "name": "城堡",
+    "code": "castle",
+    "path": "/images/backgrounds/castle/",
+    "backgroundImageName": "background-dark-medium.png",
+    "foregroundImageName": "foreground-dark-medium.png",
+    "y": 90
+  },
+  {
+    "name": "森林",
+    "code": "forest",
+    "path": "/images/backgrounds/forest/",
+    "backgroundImageName": "background-dark-medium.png",
+    "foregroundImageName": "foreground-dark-medium.png",
+    "y": 41
+  },
+  {
+    "name": "超级玛丽",
+    "code": "superMario",
+    "path": "/images/backgrounds/superMario/",
+    "backgroundImageName": "background-dark-medium.png",
+    "foregroundImageName": "foreground-dark-medium.png",
+    "y": 67
+  },
+  {
+    "name": "拳皇-01",
+    "code": "kof-01",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "01.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-02",
+    "code": "kof-02",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "02.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-03",
+    "code": "kof-03",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "03.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-04",
+    "code": "kof-04",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "04.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-05",
+    "code": "kof-05",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "05.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-06",
+    "code": "kof-06",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "06.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-07",
+    "code": "kof-07",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "07.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-08",
+    "code": "kof-08",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "08.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-09",
+    "code": "kof-09",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "09.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-10",
+    "code": "kof-10",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "10.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-11",
+    "code": "kof-11",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "11.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-12",
+    "code": "kof-12",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "12.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-13",
+    "code": "kof-13",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "13.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-14",
+    "code": "kof-14",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "14.gif",
+    "foregroundImageName": null,
+    "y": 10
+  },
+  {
+    "name": "拳皇-15",
+    "code": "kof-15",
+    "path": "/images/backgrounds/kof/",
+    "backgroundImageName": "15.gif",
+    "foregroundImageName": null,
+    "y": 10
+  }
+]
