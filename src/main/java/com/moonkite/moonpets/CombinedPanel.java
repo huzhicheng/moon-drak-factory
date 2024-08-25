@@ -54,6 +54,8 @@ public class CombinedPanel extends JPanel implements ActionListener {
 
     private static final Random RANDOM = new Random();
 
+    private boolean isRendering = true;
+
     public CombinedPanel(Project project, List<BackgroundTemplate> backgroundTemplates, List<AnimalTemplate> animalTemplates) {
         setLayout(new BorderLayout());
         setOpaque(false);
@@ -72,13 +74,33 @@ public class CombinedPanel extends JPanel implements ActionListener {
 
         loadBackgroundImageFromState();
 
-        addComponentListener(new java.awt.event.ComponentAdapter() {
-            public void componentResized(java.awt.event.ComponentEvent evt) {
+        //addComponentListener(new java.awt.event.ComponentAdapter() {
+           // public void componentResized(java.awt.event.ComponentEvent evt) {
                // loadAnimalsFromState();
                 initialLoadAnimalsFromState();
-            }
-        });
+          //  }
+        //});
     }
+
+    public void startRendering() {
+        if (!isRendering) {
+            isRendering = true;
+            if (timer != null) {
+                timer.start();
+            }
+            // Add any other logic needed to resume rendering
+        }
+    }
+
+    public void stopRendering() {
+        if (isRendering) {
+            isRendering = false;
+            if (timer != null) {
+                timer.stop();
+            }
+        }
+    }
+
 
     public void initialLoadAnimalsFromState() {
         landAnimals.clear();

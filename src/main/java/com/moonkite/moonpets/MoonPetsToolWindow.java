@@ -43,10 +43,27 @@ public class MoonPetsToolWindow {
     private Map<String, String> animalNameToCodeMap;
     private Map<String, String> backgroundNameToCodeMap;
 
+    private Timer timer;
+
     public MoonPetsToolWindow(@NotNull Project project, ToolWindow toolWindow) {
         this.project = project;
         this.state = project.getService(MoonPetsState.class);
-        myToolWindowContent = new JPanel(new BorderLayout());
+
+        init(project);
+
+        //startPeriodicUpdates();
+    }
+
+    private void startPeriodicUpdates() {
+        timer = new Timer(60000, e -> {
+//            stopRendering();
+//            startRendering();
+            init(this.project);
+        });
+        timer.start();
+    }
+    private void init(@NotNull Project project) {
+        this.myToolWindowContent = new JPanel(new BorderLayout());
         animalTemplates = AnimalTemplateLoader.loadAnimalTemplateList();
         backgroundTemplateList = AnimalTemplateLoader.loadBackgroundTemplates();
         combinedPanel = new CombinedPanel(project, backgroundTemplateList, animalTemplates);
@@ -63,7 +80,16 @@ public class MoonPetsToolWindow {
                 .collect(Collectors.toMap(BackgroundTemplate::getName, BackgroundTemplate::getCode));
 
         System.out.println("MoonPetsToolWindow 初始化完成,组件数: " + myToolWindowContent.getComponentCount());
+    }
 
+    public void startRendering() {
+        init(this.project);
+       // combinedPanel.startRendering();
+    }
+
+    public void stopRendering() {
+       // combinedPanel.stopRendering();
+//        this.myToolWindowContent.
     }
 
     public AnAction createAddAnimalAction() {

@@ -22,7 +22,7 @@ public final class PetService {
     private MoonPetsState state;
     private final Random random = new Random();
 
-    private static final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
 
     private final String gifFolderPath = "/images/offend/";
@@ -45,8 +45,14 @@ public final class PetService {
             System.err.println("无法获取当前IDE窗口");
             return;
         }
-
+        if(scheduler.isShutdown()) {
+            scheduler =  Executors.newScheduledThreadPool(1);
+        }
         scheduleNextAction(frame);
+    }
+
+    public void stopScheduler() {
+        scheduler.shutdownNow();
     }
 
     private void scheduleNextAction(IdeFrame frame) {

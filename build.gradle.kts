@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.moonkite"
-version = "1.1"
+version = "1.2"
 
 repositories {
   mavenCentral()
@@ -15,37 +15,37 @@ repositories {
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("CL") // CLion
   plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("GW") // Gateway
   plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("GO") // GoLand
   plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("IC") // IntelliJ IDEA Community Edition
   plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("IU") // IntelliJ IDEA Ultimate Edition
   plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 intellij {
-  version.set("2021.1.1")
+  version.set("2022.2.5")
   type.set("PS") // PhpStorm
   plugins.set(listOf(/* Plugin Dependencies */))
 }

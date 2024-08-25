@@ -32,10 +32,12 @@ public class ShowPetAction extends ToggleAction {
             // 激活模式
             Messages.showMessageDialog(e.getProject(), "打扰模式已开启", "提示", Messages.getInformationIcon());
             this.state.setEnableOffend(true);
+            petService.showPet();
         } else {
             // 取消模式
             Messages.showMessageDialog(e.getProject(), "打扰模式已关闭", "提示", Messages.getInformationIcon());
             this.state.setEnableOffend(false);
+            petService.stopScheduler();
         }
     }
 }

@@ -10,14 +10,20 @@
           <option name="system" value="true" />
         </PetUserConfig>
         <PetUserConfig>
-          <option name="code" value="fox" />
-          <option name="color" value="red" />
+          <option name="code" value="turtle" />
+          <option name="color" value="orange" />
           <option name="name" value="" />
           <option name="system" value="true" />
         </PetUserConfig>
         <PetUserConfig>
-          <option name="code" value="banqiliang" />
-          <option name="color" value="default" />
+          <option name="code" value="snake" />
+          <option name="color" value="green" />
+          <option name="name" value="" />
+          <option name="system" value="true" />
+        </PetUserConfig>
+        <PetUserConfig>
+          <option name="code" value="deno" />
+          <option name="color" value="green" />
           <option name="name" value="" />
           <option name="system" value="true" />
         </PetUserConfig>
@@ -25,10 +31,9 @@
     </option>
     <option name="backgroundConfig">
       <PetUserBackgroundConfig>
-        <option name="backgroundCode" value="kof-10" />
+        <option name="backgroundCode" value="kof-09" />
         <option name="system" value="true" />
       </PetUserBackgroundConfig>
     </option>
-    <option name="enableOffend" value="true" />
   </component>
 </project>
