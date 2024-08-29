@@ -6,7 +6,8 @@
   <!-- Public plugin name should be written in Title Case.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
   <name>Dark Factory</name>
-  <version>1.2.1</version>
+  <version>1.1.1</version>
+  <idea-version since-build="222" until-build="242.*" />
 
 <!--  <idea-version since-build="201" until-build="231.*"/>-->
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -16,10 +17,13 @@
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <description><![CDATA[
-  <a href="https://github.com/huzhicheng/moon-drak-factory">中文说明</a>
+
 <p>This plugin idea and some materials are inspired by <a href="https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets">vscode-pets</a>. Special thanks for that.</p>
 <p>This plugin is named "Dark Factory," with no special meaning—just for fun.</p>
 <p>After installing this plugin, you can achieve two interesting features in JetBrains IDEs:</p>
+<p>
+  <a href="https://github.com/huzhicheng/moon-drak-factory">中文说明</a>
+  </p>
 <ul>
 <li>You can place animal or character elements in a small window and let them run automatically.</li>
 <li>You can enable a distraction mode, where random fun animation elements will appear anywhere in the IDE at any time.</li>

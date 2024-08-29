@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.moonkite"
-version = "1.2"
+version = "1.1"
 
 repositories {
   mavenCentral()
@@ -75,7 +75,7 @@ tasks {
   }
 
   patchPluginXml {
-    sinceBuild.set("211")
+    sinceBuild.set("222")
     untilBuild.set("242.*")
   }
 

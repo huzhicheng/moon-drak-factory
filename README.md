@@ -9,7 +9,7 @@
 
 本插件创意和部分素材来自 [vscode-pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)，在此表示感谢。
 
-[**插件地址**]() • [**使用说明**](#使用说明) • [**Twitter关注我**](https://x.com/moon_kites)  • [**微信联系我**](https://www.moonkite.cn/wechat)
+[**插件地址**](https://plugins.jetbrains.com/plugin/25192-dark-factory) • [**使用说明**](#使用说明) • [**Twitter关注我**](https://x.com/moon_kites)  • [**微信联系我**](https://www.moonkite.cn/wechat)
 </div>
 
 ### 功能特性
